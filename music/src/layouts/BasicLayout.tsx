@@ -7,9 +7,14 @@ interface BasicLayoutProps {
 export default function BasicLayout(props: BasicLayoutProps) {
   const { children } = props;
   return (
-    <>
-      124
-      {children}
-    </>
+    <div className="mc-app">
+      <div className="mc-app-nav">
+        <h4>侧边栏</h4>
+      </div>
+      <div className="mc-app-main">
+        <h3>主要内容</h3>
+        {children}
+      </div>
+    </div>
   )
 }
