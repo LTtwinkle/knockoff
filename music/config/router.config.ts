@@ -14,6 +14,11 @@ const PageRoutes = [
         name: "home",
         component: "./home",
       },
+      {
+        path: '/canvas',
+        name: 'canvas',
+        component: './canvas',
+      },
     ],
   }
 ];
