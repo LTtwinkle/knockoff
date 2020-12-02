@@ -11,7 +11,7 @@ export default function canvas() {
 
   return (
     <>
-      <h3>this is canvas page</h3>
+      <h3>this is collect play list page</h3>
       <canvas ref={canvasRef} />
     </>
   )

@@ -6,7 +6,7 @@ const { Header, Footer, Sider, Content } = Layout;
 export default () => {
   return (
     <div>
-      home page
+      myMusic page
     </div>
   );
 }
